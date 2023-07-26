@@ -1,0 +1,26 @@
+.classtwo ul {
+    padding: auto;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 250px; 
+}
+
+.classtwo li {
+    display: inline-block;
+    margin-right: 25px; 
+}
+.classone {
+    width: 50%; /* Adjust the width as needed */
+    float: right;
+    margin-top: -70px;
+    font-size: 16px;
+    background-color:aqua;
+   
+}
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+.classthree{
+    background-color: aqua;
+}
