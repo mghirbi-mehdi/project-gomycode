@@ -1,3 +1,6 @@
+body{
+    background-color: whitesmoke;
+}
 .classtwo ul {
     padding: auto;
     margin-top: 20px;
@@ -14,7 +17,7 @@
     float: right;
     margin-top: -70px;
     font-size: 16px;
-    background-color:aqua;
+    background-color:whitesmoke;
    
 }
 h1 {
@@ -22,5 +25,38 @@ h1 {
     font-size: 40px;
 }
 .classthree{
-    background-color: aqua;
+    background-color: whitesmoke;
+}
+form {
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+input {
+    font-size: 22px;
+}
+.classfour h1{
+    color: black;
+}
+.classfour img{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+.classwest p{
+    font-size: 20px;
+}
+footer p{
+    font-size: 25px;
+    
+}
+footer h3{
+    font-size: 40px;
+
+}
+footer{
+    text-align: center;
+}
+.classfour p{
+    font-size: 22px;
 }
