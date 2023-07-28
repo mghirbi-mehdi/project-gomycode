@@ -3,7 +3,7 @@ body{
 }
 .classtwo ul {
     padding: auto;
-    margin-top: 20px;
+    
     list-style: none;
     margin-right: 250px; 
 }
@@ -15,22 +15,26 @@ body{
 .classone {
     width: 50%; /* Adjust the width as needed */
     float: right;
-    margin-top: -70px;
+    margin-top: -143px;
     font-size: 16px;
-    background-color:whitesmoke;
+    background-color:#576490;
+    border-radius: 20px;
    
 }
 h1 {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 .classthree{
-    background-color: whitesmoke;
+    background-color: #576490;
+    border-radius: 20px;
 }
 form {
     margin-top: 50px;
     text-align: center;
-
+    margin-bottom: 40px;
 
 }
 input {
@@ -63,4 +67,45 @@ footer{
 .nv {
     margin-left: 1200px;
     margin-top: -28px;
+}
+figcaption{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.tchaw{
+    display: flex;
+    text-align:center;
+    margin-left: 250px;
+    border-radius: 100px;
+    border-color: brown;
+}
+.buy{
+    background-color: #7796CB;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+.buy:hover{
+    cursor: pointer;
+    background-color: #566c92;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.classthree img {
+    width: 170px;
+}
+.nv img{
+    height: 35px;
+    width: 35px;
+    margin-top: -8px;
+    position: fixed;
+    right: 15px;
+    background-color: #7796CB;
+    border-radius: 30px;
+    padding: 5px;
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: #5688C7;
+            font-size: 45px;
+            background-color: #CFC7D2;
+            border-radius: 30px;
+            text-align: center;
+            margin-left: 400px ;
+            margin-right: 400px;
+            margin-bottom: 50px;
+
+        }
+        li{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    
+    <script >
+        let list=localStorage.getItem("pr").split("/")
+        document.write(`<h1>votre panier :</h1> <ul>`)
+      let s;
+    for (let i = 1; i < list.length;i++) {
+        if (list[i]=="shirt"){
+             s="file:///D:/4jpg_642e475ceb3347.14029021-removebg-preview.png"
+        }
+        else if(list[i]=="pants"){
+             s="file:///D:/R__1_-removebg-preview.png"
+        }
+        else if(list[i]=="shoes"){
+             s="file:///D:/R__2_-removebg-preview.png"
+        }
+        else{
+             s="file:///D:/R__3_-removebg-preview.png"
+        }
+document.write(`<li><img src=${s}> ${list[i]} </li>`)
+}
+document.write("</ul>")
+
+
+    </script>
+</body>
+</html>
